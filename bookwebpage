@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>CozyLibrary :: Official Website</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+  <header class="header">
+    <div class="topnav">
+      <div class="logo">
+        <img src="./image/logo.jpg" alt="logo">
+      </div>
+      <nav class="nav">
+        <a href="/"> 
+          Home
+        </a>
+        <a href="#footer">
+          Contact
+        </a>
+        <input type="text" placeholder="Search..">
+        <a href="#sign_in">
+          Sign in
+        </a>
+        <a href="#blog">
+          Blog
+        </a>
+        <a href="#aboutus">
+          About us
+        </a>
+        <a href="#ebook">
+          Ebook
+        </a>
+        <a href="#collection">
+          Bestseller
+        </a>
+      </nav>
+      <span class="menu">
+        <input id="toggle" type="checkbox" hidden/>
+        <label for="toggle" id="toggle"><img src="./image/menu.png" alt="menu"></label>
+        <div class="mobile_nav">
+          <label for="toggle" id="toggle"><img src="./image/menu.png" alt="menu"></label>
+          <nav>
+            <a href="/"> 
+              Home
+            </a>
+            <a href="#footer">
+              Contact
+            </a>
+            <a href="#search">
+              Search
+            </a>
+            <a href="#sign_in">
+              Sign in
+            </a>
+            <a href="blog">
+              Blog
+            </a>
+            <a href="aboutus">
+              About us
+            </a>
+            <a href="ebook">
+              Ebook
+            </a>
+            <a href="#collection">
+              Category
+            </a>
+          </nav>
+        </div>
+      </span>
+    </div>
+    
+  
+    <div class="hero">
+      <q>
+        A book can change  <br/>
+        your life
+      </q>
+      <h1>
+        Get the latest book collection
+      </h1>
+      <a class="visit" href="#collection">Visit the latest collection</a>
+    </div>
+  </header>
+  <main class="main">
+    <section id="collection" class="section section__books">
+      <h2>Bestseller</h2>
+      <div class="books">
+        <div class="book">
+          <img src="./image/book1.jpg" alt="book 1">
+          <span class="book_info">
+            <h3>Ikigai</h3>
+            <p>Ikigai is a Japanese concept that means your 'reason for being. ' 'Iki' in Japanese means 'life,' and 'gai' describes value or worth. Your ikigai is your life purpose or your bliss. In the hustle and bustle of everyday life, we often forget to experience the moment we are living in properly. </p>
+            <a href="#"><img src="./image/amazon.png" alt="amazon"></a>
+          </span>
+        </div>
+        <div class="book">
+          <img src="./image/book2.jpg"alt="book 2">
+          <span class="book_info">
+            <h3>The light we carry</h3>
+            <p>Mrs. Obama offers readers a series of fresh stories and insightful reflections on change, challenge, and power, including her belief that when we light up for others, we can illuminate the richness and potential of the world around us, discovering deeper truths and new pathways for progress.</p>
+            <a href="#"><img src="./image/amazon.png" alt="amazon"></a>
+        </div>
+        <div class="book">
+          <img src="./image/book3.jpg" alt="book 3">
+          <span class="book_info">
+            <h3>Rich dad poor dad</h3>
+            <p>Rich Dad Poor Dad is about Robert Kiyosaki and his two dads—his real father (poor dad) and the father of his best friend (rich dad)—and the ways in which both men shaped his thoughts about money and investing </p>
+            <a href="#"><img src="./image/amazon.png" alt="amazon"></a>
+        </div>
+        <div class="book">
+          <img src="./image/book4.jpg" alt="book 4">
+          <span class="book_info">
+            <h3>Unfinished</h3>
+            <p>It is the story of the racism and sexism she confronted throughout her life, and the depression she battled after the death of her father. It is also a love story, chronicling how she fell in love with her now-husband Nick Jonas. </p>
+            <a href="#"><img src="./image/amazon.png" alt="amazon"></a>
+        </div>
+        <div class="book">
+          <img src="./image/book5.jpg" alt="book 5">
+          <span class="book_info">
+            <h3>Harry potter and the chambers of secret</h3>
+            <p>A mysterious elf tells Harry to expect trouble during his second year at Hogwarts, but nothing can prepare him for trees that fight back, flying cars, spiders that talk and deadly warnings written in blood on the walls of the school.</p>
+            <a href="#"><img src="./image/amazon.png" alt="amazon"></a>
+        </div>
+        <div class="book">
+          <img src="./image/book6.jpg" alt="book 6">
+          <span class="book_info">
+            <h3>Nothing more to tell</h3>
+            <p>Four years ago, Brynn left Saint Ambrose School following the shocking murder of her favorite teacher—a story that made headlines after the teacher's body was found by three Saint Ambrose students in the woods behind their school. The case was never solved. </p>
+            <a href="#"><img src="./image/amazon.png" alt="amazon"></a>
+        </div>
+        <div class="book">
+          <img src="./image/book7.jpg" alt="book 7">
+          <span class="book_info">
+            <h3>Think like a monk</h3>
+            <p>Combining ancient wisdom and his own rich experiences in the ashram, Think Like a Monk reveals how to overcome negative thoughts and habits, and access the calm and purpose that lie within all of us. </p>
+            <a href="https://www.amazon.in/Think-Like-Monk-Jay-Shetty/dp/0008386595"><img src="./image/amazon.png" alt="amazon"></a>
+        </div>
+        <div class="book">
+          <img src="./image/book9.jpg" alt="book 7">
+          <span class="book_info">
+            <h3>made for this moment</h3>
+            <p>Made for This Moment will help you prepare for those courage-demanding moments so that they become memories you're proud of, learn from, and cherish. With wisdom beyond her years, Madi shares how she is able to stand firm in her convictions and values even amid pressure and the public eye."</p>
+            
+            <a href="https://www.amazon.in/Made-This-Moment-Standing-Strength-ebook/dp/B08ZMBHV84"><img src="./image/amazon.png" alt="amazon"></a>
+        </div>
+        <div class="book">
+          <img src="./image/book8.jpg" alt="book 7">
+          <span class="book_info">
+            <h3>the courage to be disliked</h3>
+            <p>The book tells the story of an unhappy young man, who visits a philosopher on the outskirts of his city. Throughout five conversations, the teacher helps him take control of his own life and happiness. </p>
+            <a href="https://www.amazon.in/Courage-Disliked-Ichiro-Kishimi-Fumitake/dp/1760630721" alt="amazon"></a>
+        </div>
+      </div>
+      <a class="link" href="/">
+        View more
+      </a>
+    </section>
+    <section  id="ebook" class="section section_ebook">
+      <h2>E books</h2>
+      <div class="ebooks">
+        <div class="container1">
+          <a href="https://drive.google.com/file/d/15qSAA-7ophpnpgROayoPvUInBYa9i8_c/view?usp=drivesdk">
+          <img src="./image/book6.jpg" alt="book1" style="width:180px">
+          <button class="btn">click here for ebook</button>
+          </a>
+        </div>
+        <div class="container1">
+          <a href="https://drive.google.com/file/d/15l8Sd4jNKPQ4XhIKcMfkkkXVSFqC5ulp/view?usp=drivesdk">
+          <img src="./image/book7.jpg" alt="book1" style="width:180px">
+          <button class="btn">click here for ebook</button>
+          </a>
+        </div>
+        <div class="container1">
+          <a href="https://drive.google.com/file/d/15l8V95KJgGmOpL9fmQDHYF5zO7tpXcaU/view?usp=drivesdk">
+          <img src="./image/book8.jpg" alt="book1" style="width:180px">
+          <button class="btn">click here for ebook</button>
+          </a>
+        </div>
+
+      </div>
+    </section>
+    <section  id="aboutus" class="section about_us">
+      <h2>About us</h2>
+      <div class="content">
+        <p>
+          The main idea of our website
+          "CozyLibrary" Is to provide user a
+          wonderful experience of purchasing and
+          reading books by providing a number of
+          different categories be it self help or A
+          crime thriller. We also provide a blog
+          page so that continuous can reach to us
+          and write their views or summaries for
+          the other readers.
+        </p>
+        <p>
+          We also provide a collection page where
+          we provide the latest collection of
+          books. We also provide a search page
+          where user can search for a particular
+          book by its name or author name.
+        </p>
+      </div>
+      <a href="/" class="link light">
+        Read more...
+      </a>
+    </section>
+    <section  id="blog"class="section blogit">
+      <div class="flip-box">
+        <div class="flip-box-inner">
+          <div class="flip-box-front">
+            <h2>Blog</h2>
+            <p>The invisible man<br>An extremely powerful story of a young Southern Negro, from his late high school days through three years of college to his life in Harlem.
+              His early training prepared him for a life of humility before white men, but through injustices- large and small, he came to realize that he was an "invisible man". People saw in him only a reflection of their preconceived ideas of what he was, denied his individuality, and ultimately did not see him at all. This theme, which has implications far beyond the obvious racial parallel, is skillfully handled. The incidents of the story are wholly absorbing. The boy's dismissal from college because of an innocent mistake, his shocked reaction to the anonymity of the North and to Harlem, his nightmare experiences on a one-day job in a paint factory and in the hospital, his lightning success as the Harlem leader of a communistic organization known as the Brotherhood, his involvement in black versus white and black versus black clashes and his disillusion and understanding of his invisibility- all climax naturally in scenes of violence and riot, followed by a retreat which is both literal and figurative. Parts of this experience may have been told before, but never with such freshness, intensity and power.
+              This is Ellison's first novel, but he has complete control of his story and his style.</p> 
+        </div>
+          <div class="flip-box-back">
+            <h2>BLOG</h2>
+            <p>Jessica Barry’s Freefall, a crime novel:<br>
+
+              In some crime novels, the wrongdoing hits you between the eyes from page one. With others it’s a more subtle process, and that’s OK too. So where does Freefall fit into the sliding scale?
+              In truth, it’s not clear. This is a novel with a thrilling concept at its core. A woman survives plane crash, then runs for her life. However, it is the subtleties at play that will draw you in like a spider beckoning to an unwitting fly.<br>
+              
+              Like the heroine in Sharon Bolton’s Dead Woman Walking, Allison is lucky to be alive. She was the only passenger in a private plane, belonging to her fiancé, Ben, who was piloting the expensive aircraft, when it came down in woodlands in the Colorado Rockies. Ally is also the only survivor, but rather than sitting back and waiting for rescue, she is soon pulling together items that may help her survive a little longer – first aid kit, energy bars, warm clothes, trainers – before fleeing the scene. If you’re hearing the faint sound of alarm bells ringing, get used to it. There’s much, much more to learn about Ally before this tale is over.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+  
+  <footer class="footer" id="footer">
+    <div class="footer_align">
+      <div class="col">
+        <h3>links</h3>
+        <div class="content">
+            <a href="#">about</a>
+            <a href="#">services</a>
+            <a href="#">contact us</a>
+            <a href="#">shop</a>
+        </div>
+      </div>
+      <!-- END -->
+      <div class="col">
+        <h3>follow us</h3>
+        <div class="content">
+          <a href="#">facebook</a>
+          <a href="#">twitter</a>
+          <a href="#">instagram</a>
+          <a href="#">youtube</a>
+        </div>
+      </div>
+      <!-- END -->
+      <div class="col">
+        <h3>contact info</h3>
+        <div class="content">
+          <address class="address">
+            <p>CozyLibrary</p>
+            <p>123, Street, City, Country</p>
+            <p>Phone: +123 456 7890</p>
+            <p>Email: hangout@cozy.in</p>
+          </address>
+        </div>
+      </div>
+      <div class="col">
+        <h3>newsletter</h3>
+        <div class="content">
+          <form class="letter_form">
+            <input type="text" placeholder="Enter email" required>
+            <button type="submit">Subscribe</button>
+          </form>
+        </div>
+      </div>
+      <!-- END -->
+    </div>
+  </footer>
+  
+
+  
+</body>
+</html>
